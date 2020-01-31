@@ -1,0 +1,33 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 17,
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "workbench.tree.indent": 16,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        // "c": "gcc $fileName -o $fileNameWithoutExt && start $fileName",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    "extensions.ignoreRecommendations": false,
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-vscode.csharp"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 150,
+    "editor.suggestSelection": "first",
+    "prettier.packageManager": "yarn",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "welcomePage",
+    "terminal.integrated.rendererType": "dom",
+}
